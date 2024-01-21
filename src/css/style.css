@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+header {
+    align-self: center;
+    margin-top: 20px; 
+}
+
+h1{
+    width: 470px;
+    height: 168;
+    padding-right: 50px; 
+    font-size: 36px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto-main{ /*classe que mexe com os textos principais*/
+    align-items: center;
+    margin-left: 20px;
+    height: 482px;
+    width: 615px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    line-height: 1.5;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.port{
+    height: 25px;
+    color:darkcyan;
+}
+
+.cabecalho{ /*classe que mexe com a imagem do cabeçalho*/
+    width: 200px;
+    height: 200px;
+    padding: 3%;
+    margin-left: -35px;
+}
+
+.principal{ /*classe que mexe com a imagem principal*/
+    width: 467px;
+    height: 532px;
+    margin-left: 710px;
+    border-radius: 10%;
+}
+
+
+.qualidade{ /*classe que mexe com o negrito do front-end de qualidade */
+    color:#22D4fD;
+}
+
+.ferramentas{ /*classe que mexe com o negrito das especialidades*/
+    color:rgb(114, 72, 134);
+}
+
+
+p{
+    color: darkgray;
+    font-size: 18px;
+    width: 470px;
+    height: 144px;
+    padding-right: 50px;
+    margin-top: 1px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    position: relative ;
+    margin-left: 10px;
+    margin-top: 2%;
+    bottom: 150px; 
+    left: 130px;
+    font-size: 24px;
+}
+
+.links a{
+    padding: 30px; 
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    background-color: #22D4fD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+footer{
+    margin-top: -100px;
+    padding-right: 280px;
+}
